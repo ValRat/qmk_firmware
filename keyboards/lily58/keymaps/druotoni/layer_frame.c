@@ -20,7 +20,7 @@ uint8_t  layer_frame_destination = ANIM_LAYER_FRAME_MAX;
 
 // layer name for display
 const char*        layer_name;
-static const char* layer_ref[3] = {LAYER_NAME_0, LAYER_NAME_1, LAYER_NAME_2};
+static const char* layer_ref[4] = {LAYER_NAME_0, LAYER_NAME_1, LAYER_NAME_2, LAYER_NAME_3};
 
 void update_layer_frame(layer_state_t state) {
     // reset timer

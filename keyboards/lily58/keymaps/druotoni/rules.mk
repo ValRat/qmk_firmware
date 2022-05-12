@@ -2,7 +2,7 @@
 #   change to "no" to disable the options, or define them in the Makefile in
 #   the appropriate keymap folder that will get included automatically
 #
-RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight. 
+RGBLIGHT_ENABLE =  no# Enable WS2812 RGB underlight.
 
 # Bootloader selection
 BOOTLOADER = atmel-dfu
@@ -13,6 +13,7 @@ LTO_ENABLE = yes
 SPACE_CADET_ENABLE = no
 GRAVE_ESC_ENABLE = no
 MAGIC_ENABLE  = no
+EXTRAKEY_ENABLE = yes
 
 # If you want to change the display of OLED, you need to change here
 SRC +=  ./lib/rgb_state_reader.c \
