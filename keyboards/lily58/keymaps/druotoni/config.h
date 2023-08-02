@@ -13,7 +13,7 @@
 
 // choose IS_LEFT or IS_RIGHT for compilation and flash firmware
 #define IS_LEFT 1
-//#define IS_RIGHT 1
+// #define IS_RIGHT 1
 
 // logo glitch
 #define WITH_GLITCH
@@ -50,6 +50,6 @@
 #endif
 #if !defined(NO_PRINT) && !defined(CONSOLE_ENABLE)
 #    define NO_PRINT
-#endif 
+#endif
 
 
